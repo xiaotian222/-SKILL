@@ -2,7 +2,7 @@
 name: mock-interviewer-jd-resume
 description: >-
   Conducts a ~40-minute mock interview in Chinese using workspace-root jd.md
-  and resume.md (JD plus resume): asks salary first, senior depth if pay over
+  and resume.local.md or resume.md (JD plus resume): asks salary first, senior depth if pay over
   15k/month else mid-level with half the deep follow-ups. Funnel-style tech then
   project, half technical half business. Debrief with key vs general gaps. Use
   for 模拟面试, mock interview, 面试官, or JD resume interview practice.
@@ -13,7 +13,10 @@ disable-model-invocation: true
 
 ## 何时启用
 
-用户明确要求**模拟面试、陪练、面试官视角、按 JD+简历**时使用。**默认材料路径（工作区/项目根目录，与 `.cursor` 同级）**：先 **Read** `jd.md` 与 `resume.md`。若不存在或用户要求改路径，再请用户粘贴全文或给出新路径。
+用户明确要求**模拟面试、陪练、面试官视角、按 JD+简历**时使用。**默认材料路径（工作区/项目根目录，与 `.cursor` 同级）**：  
+- **简历**：若存在 `resume.local.md` 则**优先 Read**（供本机真实简历、且不进入 Git）；否则 Read `resume.md`。  
+- **JD**：Read `jd.md`。  
+若均不存在或用户要求改路径，再请用户粘贴全文或给出新路径。
 
 ## 开场必做：岗位薪资 + 职级判定
 

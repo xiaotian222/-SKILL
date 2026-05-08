@@ -21,7 +21,7 @@ git clone https://github.com/xiaotian222/-SKILL.git mock-interviewer-skill
 | 文件 | 说明 |
 |------|------|
 | `jd.md` | 目标岗位 JD：职责、要求、加分项、**薪资范围**等 |
-| `resume.md` | 你的简历正文（Markdown） |
+| `resume.md` | 公开仓库可用**占位示例**；真实简历放 **`resume.local.md`**（建议加入 `.gitignore`） |
 
 Agent 开启模拟面试时，应优先 **Read** 上述路径；若文件不存在，再请用户在对话里粘贴。
 

@@ -12,3 +12,6 @@ Thumbs.db
 /resume_optimized_zh.md
 /md_to_resume_docx.py
 /output/
+
+# 真实简历仅存本机，勿提交
+resume.local.md
