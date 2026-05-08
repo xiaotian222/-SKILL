@@ -4,3 +4,11 @@ __pycache__/
 Thumbs.db
 *.tmp
 .cursor/*.log
+
+# 与本 Skill 仓库无关的本地文件（仍保留在你本机，仅不纳入 Git）
+/index.md
+/问题.md
+/问题2.md
+/resume_optimized_zh.md
+/md_to_resume_docx.py
+/output/
